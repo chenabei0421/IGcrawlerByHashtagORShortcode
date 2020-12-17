@@ -11,8 +11,7 @@ L = instaloader.Instaloader()
 
 USER="AAAAAAAAAAAAA"  #your IG account
 PASS="password"
-USER="cowbadma@gmail.com"  #your IG account
-PASS="c78785478C"
+
 L.login(USER, PASS)
 
 for key in ShortcodeList.keys():  #every shortcode
